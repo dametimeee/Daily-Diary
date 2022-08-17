@@ -1,9 +1,11 @@
-const images = ["0.jpeg", "1.jpeg", "2.jpeg", "3.jpeg"];
+const images = ["0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
 
+bgImage.classList.add("bgimage");
+
 bgImage.src = `img/${chosenImage}`;
 
-document.body.appendChild(bgImage);
+document.body.appendChild(bgImage); /** => 랜덤이미지 html에 img태그 생성 **/
