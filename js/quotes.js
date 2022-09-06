@@ -5,11 +5,6 @@ const quotes = [
     author: "Charlie Chaplin",
   },
   {
-    quote:
-      "Your beliefs become your thoughts. Your thoughts become your words. Your words become your actions. Your actions become your habits. Your habits become your values. Your values become your destiny.",
-    author: "Mahatma Gandhi",
-  },
-  {
     quote: "Why be a man when you can be a success?",
     author: "Bertolt Brecht",
   },
