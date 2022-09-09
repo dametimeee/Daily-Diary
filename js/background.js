@@ -1,4 +1,9 @@
-const images = ["1.jpg"]; /* if you want random bgi, add image this array */
+const images = [
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+]; /* if you want random bgi, add image this array */
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
